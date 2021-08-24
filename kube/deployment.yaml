@@ -6,11 +6,11 @@ spec:
   replicas: 1
   selector:
     matchLabels:
-      app: whoami
+      app: whoami-front
   template:
     metadata:
       labels:
-        app: whoami
+        app: whoami-front
     spec:
       containers:
       - name: whoami-front
