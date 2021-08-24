@@ -1,10 +1,9 @@
 version: "3"
 services:
-    asosolng:
-        image: whoamidev
+    whoami:
+        build: .
         volumes:
             - ".:/app"
         ports:
             - "4200:4200"
-        restart: always
 
