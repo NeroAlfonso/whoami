@@ -1,8 +1,9 @@
 #docker build -t whoamidev -f Dockerfile.dev .
-FROM node:10-alpine
-RUN apk add git
+FROM node:latest
+#RUN apk add git
 RUN mkdir -p /app
 WORKDIR /app
 COPY . /app
+EXPOSE 4200
 CMD npm run start
 
