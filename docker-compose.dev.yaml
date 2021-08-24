@@ -1,0 +1,11 @@
+version: "3"
+services:
+    asosolng:
+        image: whoami
+        volumes:
+            - "./node_modules:/app/node_modules"
+            - ".:/app"
+        ports:
+            - "4300:80"
+        restart: always
+

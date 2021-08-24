@@ -119,6 +119,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "whoami"
+    }
+  },
+  "defaultProject": "whoami",
+  "cli": {
+    "analytics": "2511b8ef-fe2d-4cef-ae1f-ef5027ec11e8"
+  }
 }
