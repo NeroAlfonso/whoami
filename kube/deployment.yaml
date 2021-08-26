@@ -15,6 +15,10 @@ spec:
       containers:
       - name: whoami-front
         image: neroalfonso/whoami:1.0.0
+        resources:
+          requests:
+            memory: "500Mi"
+            cpu: "200m"
         ports:
         - containerPort: 80
         readinessProbe:
