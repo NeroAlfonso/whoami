@@ -12,7 +12,7 @@ export class WhoamiServiceService {
   }
   getVisitors() : Observable<any>
   {
-    return this.http.get('http://localhost:5000/visit');
+    return this.http.get('https://localhost/visit');
   }
 
 }
